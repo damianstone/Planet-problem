@@ -1,0 +1,22 @@
+1. Write down your brief thoughts on how you approached this problem.
+
+After reading and watching videos about various algorithms that
+helped find the shortest path, I decided to implement the
+Krukal's algorithm to create the graph and then apply the dijkastra algorithm
+to find the shortest route. 
+do this as follows:
+first, using Krukal's algorithm, create the minimum spanning tree whichreturn a list 
+of edges that represent the graph. Furthermore, using dijkastra's algorithm, iterate 
+the calculation of the distances to adjacent nodes, to finally obtain the shortest path, 
+as well as the maximum weight of this shortest path
+
+
+
+2. What is the complexity of your solution? Can it be improved?
+
+The complexity is quite right for the type of problem that needed to be to carry out.
+However, there may be scenarios where Dijkstra's algorithm is not fully efficient,
+For example, this algorithm may fail on a graph with negative edge weights.
+(i.e., a cycle in the graph for which the sum of edge weights is negative)
+
+
